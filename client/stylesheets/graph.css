@@ -1,0 +1,114 @@
+.graph-layout {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 2.5em;
+}
+  
+  #ticks {
+    color: #7eb6bc;
+    position: relative; 
+    top: -250px; 
+    left: 2px;
+    width: 100%; 
+    height: 300px; 
+    z-index: 1;
+    margin-bottom: -300px;
+    font-size: 15px;
+    font-family: "fira-sans-2", Verdana, sans-serif;
+  }
+
+  #ticks .tick {
+    position: relative;  
+    width: 100%;
+  }
+
+  #ticks .tick p {
+    position: absolute;  
+    margin: 0 0 0 0.5em;
+  }
+
+  #graph {
+    display: block; /* fixes layout wonkiness in FF1.5 */
+    position: relative; 
+    width: 100%; 
+    height: 300px;
+    margin: 1.1em 0 0; 
+    padding: 0;
+    background: transparent;
+    font-size: 0.65em;
+  }
+  #graph tr, #graph th, #graph td { 
+    position: absolute;
+    bottom: 0; 
+    width: 9px; 
+    z-index: 2;
+    margin-top: 0;
+    margin-bottom: 4.27em;
+    margin-right: 0;
+    margin-left:1em; 
+    padding: -1em;
+    text-align: center;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+  #graph td {
+    background-color: #7eb6bc;
+  }
+  #graph thead tr { 
+    top: 50%; 
+    bottom: auto;
+    margin: -2.5em 0 0 5em;}
+  #graph thead th {
+    width: 7.5em; 
+    height: auto; 
+    padding: 0.5em 1em;
+  }
+  #graph thead th.sent {
+    top: 0; 
+    left: 0; 
+    line-height: 2;
+  }
+
+  #graph tbody tr {
+    height: 50%;
+    padding-top: 2px;
+    color: #AAA;
+    
+  }
+  #graph #row1 {left: 25px;}
+  #graph #row2 {left: 50px;}
+  #graph #row3 {left: 75px;}
+  #graph #row4 {left: 100px;}
+  #graph #row5 {left: 125px;}
+  #graph #row6 {left: 150px;}
+  #graph #row7 {left: 175px;}
+  #graph #row8 {left: 200px;}
+  #graph #row9 {left: 225px;}
+  #graph #row10 {left: 250px;}
+  .row-label {
+    width: 15px;
+    margin: 0;
+    font-size: 20px !important;
+    margin-top: 0.5em !important;
+    margin-left: 0.5em !important;
+    margin-bottom: 0.8em !important;
+    color: #7eb6bc;
+  }
+  
+  @media only screen and (min-width : 768px) {
+    .ten-day-graph {
+      margin-left: 12em;
+    }
+  }
+
+.ten-day-text {
+  width: 100%;
+  text-align: center;
+  color: #7eb6bc;
+}
+
+

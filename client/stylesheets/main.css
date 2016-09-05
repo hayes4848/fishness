@@ -1,0 +1,309 @@
+/*#CCe0e3  blue*/
+/*#7eb6bc  */
+/*#F1F0E7  lighter gray brown*/
+/*#E2231A  light red*/
+/*#A91A17  dark red*/
+/*#69696A  gray*/
+
+body {
+  background-color: #CCe0e3;
+  font-size: 16px;
+  width: 98%;
+  /*white-space: nowrap;*/
+  overflow-x: hidden;
+  font-family:'Proxima Nova W15', 'Montserrat';
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-weight: bold;*/
+}
+  .header{
+    position: relative;
+    height: 5em;
+    background-color: #f1f0e7;
+    margin: -10px;
+  }
+
+  @media only screen and (min-width : 768px) {
+    .header{
+    position: relative;
+    height: 8em;
+    background-color: #f1f0e7;
+    margin: -10px;
+  }
+}
+.nav-fish {
+  position: absolute;
+  width: 20%;
+  left:0;
+  top:0;
+}
+.which-side{
+  position: absolute;
+  width: 100%;
+  /*left:35%;*/
+  text-align: center;
+  top:4px;
+  color:#CCE0E3;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media only screen and (min-width : 768px) {
+  .which-side{
+    position: absolute;
+    width: 100%;
+    /*left:35%;*/
+    text-align: center;
+    top: 0.5em;
+    color:#CCE0E3;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.nav-gear {
+  position: absolute;
+  width: 20%;
+  right:0;
+  top:0;
+}
+.footer-nav {
+  width:100%;
+  position: absolute;
+  bottom: 25px;
+  margin-left: -5px;
+}
+.footer-images {
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+}
+.first-image{
+  /*margin-left: -5px;*/
+  /*margin-right: -5px;*/
+}
+.middle-image {
+  border-left: 3px solid #7eb6bc;
+  border-right: 3px solid #7eb6bc;
+}
+
+.home-page {
+  min-height: 50em;
+  /*min-width: 100%;*/
+  background: url('/fish/fish_background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.red-overlay {
+  min-height: 50em;
+  width: 103%;
+  margin-top: -2%;
+  margin-left: -3%;
+
+  background-color: rgba(226, 35, 26, 0.9);
+}
+.side-buttons {
+  width: 48%;
+  float:left;
+}
+.button-north {
+  margin-left: 2%;
+}
+.button-south {
+
+}
+@media only screen and (min-width : 480px) {
+  .voterBlock {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .voterBlock {
+    position: fixed;
+    margin-top: 11em;
+    min-height: 10em;
+    width: 100%;
+  }
+}
+
+.voting-body {
+  margin-top: 15em;
+  margin-bottom: 10em;
+  width: 93%;
+  position: relative;
+  margin-left: 12%;
+}
+.voting-body img{
+  width: 10em;
+  position: absolute;
+  bottom: 0;
+}
+.fish-scale {
+  width: 17%;
+  float: left;
+}
+
+.fish-1 img{
+  width: 8%;
+
+  bottom: 0;
+  margin-top: 4.1em;
+  margin-left: -1.2em;
+}
+.fish-2 img {
+  width: 13%;
+
+  bottom: 0;
+  margin-top: 3em;
+  margin-left: 5.5%;
+}
+.fish-3 img {
+  width: 18%;
+
+  bottom: 0;
+  margin-top: 2em;
+  margin-left: 19%;
+}
+.fish-4 img {
+  width: 23%;
+  bottom: 0;
+
+  margin-top: 1em;
+  margin-left: 36%;
+}
+.fish-5 img {
+  width: 28%;
+  bottom: 0;
+
+  margin-left: 58%;
+}
+
+.fish-lines {
+  font-size: 25px;
+  float: left;
+  margin-top: 1.2em;
+  clear: both;
+  font-family:'Proxima Nova W15', 'Montserrat';
+  font-weight: thin; 
+  width: 100%;
+  margin-left: -0.7em;
+}
+
+.guppy-text {
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  color: #7eb6bc;
+  margin-top: -0.5em;
+  text-align: right;
+  padding-right: 5px;
+  /*margin-right: 1%;*/
+  /*margin-left: 5%;*/
+  /*position: absolute;*/
+  /*width: 25%;*/
+  /*left: 3em;*/
+}
+.grouper-text {
+  box-sizing: border-box;
+  float: left;
+  width: 33%;
+  color: #7eb6bc;
+  margin-top: -0.5em;
+  padding-left: 5px;
+  /*margin-left: 3%;*/
+  /*width: 25%;*/
+  /*right: 3em;*/
+}
+.cool-line {
+  box-sizing: border-box;
+  padding: 0 10px;
+   float: left;
+  /*position: absolute;*/
+  margin-top: 2px;
+  width: 33%;
+  border-bottom: 1px solid #7eb6bc;
+  /*left: 29%;*/
+}
+.submit-button {
+  background-color: #CCe0e3;
+  color: #7eb6bc;
+  border: 2px solid #7eb6bc;
+  margin-top: 1em;
+  width: 50%;
+  margin-left: 25%;
+  font-family:'Proxima Nova W15', 'Montserrat';
+  font-size: 25px;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.submit-button-inverse {
+  background-color: #7eb6bc;
+  color: #CCe0e3;
+  border: 2px solid #7eb6bc;
+  margin-top: 1em;
+  width: 50%;
+  margin-left: 25%;
+  font-family:'Proxima Nova W15', 'Montserrat';
+  font-size: 25px;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.date {
+  width: 100%;
+  text-align: center;
+  color: #7eb6bc;
+  font-size: 25px;
+  margin-top: 1em;
+  font-family:'Proxima Nova W15', 'Montserrat';
+  font-weight: bold;
+}
+.fish-image {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -1em;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width : 768px) {
+  .fish-image {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -2em;
+    margin-bottom: -1em;
+  }
+}
+#codFish {
+  margin-left: 5%;
+}
+#seaBass {
+  margin-left: 7%;
+}
+#grouper{
+  margin-left: 15.5%;
+  width: 65%;
+  margin-top: 0.5em;
+}
+
+.fish-name {
+    color: #7eb6bc;
+    text-align: center;
+    margin-top: 0;
+  }
+@media only screen and (min-width : 768px) {
+  .fish-name {
+    color: #7eb6bc;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 40px;
+  }
+}
+.no-vote-header {
+  margin-top: 5em;
+}
+.no-vote {
+  width: 80%;
+  margin-left: 10%;
+}
