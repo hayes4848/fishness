@@ -25,7 +25,7 @@ body {
   @media only screen and (min-width : 768px) {
     .header{
     position: relative;
-    height: 8em;
+    height: 5em;
     background-color: #f1f0e7;
     margin: -10px;
   }
@@ -123,7 +123,7 @@ body {
 @media only screen and (min-width : 768px) {
   .voterBlock {
     position: fixed;
-    margin-top: 11em;
+    margin-top: 5em;
     min-height: 10em;
     width: 100%;
   }
@@ -132,6 +132,7 @@ body {
 .voting-body {
   margin-top: 15em;
   margin-bottom: 10em;
+  clear:both;
   width: 93%;
   position: relative;
   margin-left: 12%;
@@ -271,8 +272,8 @@ body {
   .fish-image {
     width: 80%;
     margin-left: 10%;
-    margin-top: -2em;
-    margin-bottom: -1em;
+    margin-top: -5em;
+    margin-bottom: 1em;
   }
 }
 #codFish {
@@ -296,8 +297,7 @@ body {
   .fish-name {
     color: #7eb6bc;
     text-align: center;
-    margin-top: 1em;
-    font-size: 40px;
+   
   }
 }
 .no-vote-header {
