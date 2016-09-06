@@ -96,6 +96,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+@media only screen and (min-width : 768px) {
+  .home-page{ 
+    min-height: 70em;
+  }
+}
 .red-overlay {
   min-height: 50em;
   width: 103%;
@@ -104,6 +109,13 @@ body {
 
   background-color: rgba(226, 35, 26, 0.9);
 }
+
+@media only screen and (min-width : 768px) {
+  .red-overlay{
+    min-height: 70em;
+  }
+}
+
 .side-buttons {
   width: 48%;
   float:left;
