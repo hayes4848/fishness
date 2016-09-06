@@ -3,11 +3,11 @@
 App.info({
   id: 'com.saxton.fish',
   name: 'FishIndex',
-  description: 'Something smells fishy.. ',
+  description: 'Fish Index was created and develped to help people better express the levels of fish smell one might encounter each day. Fish Index has a pretty straight forwward user experience, if you smell something fishy, you simply get out your phone and "vote" for what level best matches. This app is great for people working on boats, in harbors, or even your occasional marketing creative.',
   author: 'Andrew Hayes',
   email: 'andythemanhayes@hotmail.com',
   website: 'http://example.com',
-  version: '1.0.0'
+  version: '1.1'
 });
 // Set up resources such as icons and launch screens.
 App.icons({

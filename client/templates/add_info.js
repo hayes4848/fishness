@@ -37,9 +37,9 @@ Template.addInfo.events({
       alert('You have already voted today, Please vote again tomorrow!');
     } else {
       console.log('voted, no cookie');
+      vote._id = Votes.insert(vote);
       // Cookie.set('alreadyVoted', 'true', {"hours": 10})
       Cookie.set('alreadyVoted', true, {'minutes': 1})
-      vote._id = Votes.insert(vote);
     }
     Router.go('todayIndex');
   },
@@ -55,7 +55,8 @@ Template.addInfo.events({
       alert('You have already voted today, Please vote again tomorrow!');
     } else {
       console.log('voted, no cookie');
-      Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      // Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      Cookie.set('alreadyVoted', 'true', {"minutes": 1})
       vote._id = Votes.insert(vote);
     }
     Router.go('todayIndex');
@@ -72,7 +73,8 @@ Template.addInfo.events({
       alert('You have already voted today, Please vote again tomorrow!');
     } else {
       console.log('voted, no cookie');
-      Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      // Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      Cookie.set('alreadyVoted', true, {'minutes': 1})
       vote._id = Votes.insert(vote);
     }
     Router.go('todayIndex');
@@ -89,7 +91,8 @@ Template.addInfo.events({
       alert('You have already voted today, Please vote again tomorrow!');
     } else {
       console.log('voted, no cookie');
-      Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      // Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      Cookie.set('alreadyVoted', true, {'minutes': 1})
       vote._id = Votes.insert(vote);
     }
     Router.go('todayIndex');
@@ -106,7 +109,8 @@ Template.addInfo.events({
       alert('You have already voted today, Please vote again tomorrow!');
     } else {
       console.log('voted, no cookie');
-      Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      // Cookie.set('alreadyVoted', 'true', {"hours": 10})
+      Cookie.set('alreadyVoted', true, {'minutes': 1})
       vote._id = Votes.insert(vote);
     }
     Router.go('todayIndex');
